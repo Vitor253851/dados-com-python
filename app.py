@@ -14,7 +14,7 @@ st.set_page_config(
 df = pd.read_csv("https://raw.githubusercontent.com/vqrca/dashboard_salarios_dados/refs/heads/main/dados-imersao-final.csv")
 
 # --- Barra Lateral (Filtros) ---
-st.sidebar.header("🔍 Filtros")
+st.sidebar.header("🔍 Fi")
 
 # Filtro de Ano
 anos_disponiveis = sorted(df['ano'].unique())
@@ -140,3 +140,4 @@ with col_graf4:
 st.subheader("Dados Detalhados")
 st.dataframe(df_filtrado)
      
+
